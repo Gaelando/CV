@@ -1,0 +1,179 @@
+header{background-color: #782221;
+   
+    
+    }
+    img{
+        display: flex;
+        justify-content: center;
+        width: 150px;
+        height: 150px;
+        margin: auto;
+        border-radius: 50%;
+        background-color: #782221;
+        box-shadow: 10px 3px 3px black;
+       
+        
+    
+    }
+    
+
+a.email-link , a , a.phone-link{
+    color: white; 
+    text-decoration: none; }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+body{
+    width: 1160px ;
+    margin: auto;
+    
+    
+    }
+    main{
+        border-right: 2px black solid;
+        background-color: #782221;
+    }
+   
+
+.nom{
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    background-color:#782221 ;
+    justify-content: center;
+    font-size: 60px;
+    align-items: center;
+    height: 100px;
+}
+
+.poste{
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    background-color:#782221 ;
+    justify-content: center;
+    font-size: 30px;
+    align-items: center;
+    height: 150px;
+    
+
+}
+nav{
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: black;
+    align-items: center;
+    
+    height: 100px;
+    margin: 0 auto; 
+    max-width: 1160px;
+
+
+}
+
+
+
+h1{
+
+    font-family: 'Lato', sans-serif;
+    color: black;
+    background-color:#dbc2a4 ;
+    display: flex;
+    justify-content: left ;
+    width: 350px;
+    height: auto;
+
+
+
+}
+
+
+.Droite {
+font-family: 'Lato', sans-serif;
+display: flex;
+justify-content: right;
+
+padding-left: 50px;
+
+color: black;
+background-color: white;
+flex-direction: column;
+padding-right: 20px;
+
+
+
+
+} 
+
+.Droite:hover .experience {
+    border-right: 2px solid #800000; 
+}
+
+
+.Droite:hover .diplome {
+    border-right: 2px solid #800000; 
+}
+
+
+.Droite:hover .competences {
+    border-right: 2px solid #800000; 
+}
+
+
+.Gauche{
+font-family: 'Lato', sans-serif;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: left;
+color: white;
+background-color: #782221;
+width: 350px;
+padding-right: 50px;
+
+float: left;
+
+}
+
+h2{
+    color: black;
+    background-color: #dbc2a4;
+    font-family: 'Lato', sans-serif;
+    
+    
+    
+
+
+}
+h3, li , p{
+    font-family: 'Raleway', sans-serif;
+
+    font-family: 'Raleway', sans-serif;
+}
+
+footer{
+
+display: flex;
+align-items: center;
+justify-content: center     ;
+flex-direction: row;
+
+
+
+}
+
+footer img {
+    width: 80px; 
+    height: auto; 
+}
+footer img:hover {
+    opacity: 0.6;
+}
+/* #dbc2a4 beige
+#782221 marron
+ #2c1d27 noir*/
